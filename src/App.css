@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle, #1F7D53 10%, #255F38 50%, #27391C 100%);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Quantico', sans-serif;
+    text-shadow: 4px 4px black;
+    color: beige;
+}
+
+h3 {
+    margin: 30px;
+    color: rgb(142, 140, 140);
+    font-size: x-large;
+    letter-spacing: 4px;
+} */
+
+@import "tailwindcss";
+
+@theme{
+    --font-quantico: "Quantico", sans-serif;
+    --font-bebasneue: "Bebas Neue", sans-serif;
+    --color-lightestGreen: #D8E9A8;
+    --color-lightGreen: #4E9F3D;
+    --color-darkestGreen: #1E5128;
+    --color-beige: #F5F5DC;
+}
